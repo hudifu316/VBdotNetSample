@@ -3,7 +3,7 @@ Imports System
 Namespace VBDotNetHW
     Public Class WeatherForecast
 
-        Public Property Datetime As DateTime
+        Public Property [Date] As DateTime
         Public Property TemperatureC As Integer
         Public ReadOnly Property TemperatureF As Integer
             Get

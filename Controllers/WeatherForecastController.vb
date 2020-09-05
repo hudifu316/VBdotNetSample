@@ -26,7 +26,7 @@ Namespace VBDotNetHW.Controllers
             Dim rng = new Random()
             Return Enumerable.Range(1, 5).
                 Select (Function(index) new WeatherForecast With
-                {   .Datetime = DateTime.Now.AddDays(index),
+                {   .Date = DateTime.Now.AddDays(index),
                     .TemperatureC = rng.Next(-20, 55),
                     .Summary = Summaries(rng.Next(Summaries.Length))
                 }).
